@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif ;
+}
+::selection{
+    color: rgb(240, 86, 112);
+    
+}
+#demo{
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    
+}
+#demo li a{
+    font-size: 1.3rem;
+}
+#demo li a:hover{
+   transform: scale(1.1);
+   background-color: rgb(42, 42, 42);
+   color: white;
+   
+}
+.home img{
+    width: 60vh;
+    margin-left: 3rem;
+    float: left;
+    border-radius: 1rem;
+    border: 1px solid crimson;
+    
+  }
+  .home .row p{
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+  #biop p{
+    font-size: 1.2rem;
+   font-weight: bold;
+  }
+  #biop p strong{
+    color: rgb(233, 61, 34);
+  }
+  ul{
+    font-size: 1.3rem;
+  }
+  .ol1 li{
+    margin-left: 2rem;
+  }
+  .fa-star{
+ background-image: linear-gradient(rgb(239, 37, 78),rgb(237, 230, 230));
+ border-radius: 1rem;
+ padding: 0.8rem;
+  }
+ #list li strong{
+    color: crimson;
+  }
+  .quote{
+    font-style: italic;
+    font-size: 1.7rem;
+    color: crimson;
+  }
+  .para{
+    font-size: 1.3rem;
+  }
+@media(max-width:550px) {
+    #demo{
+       text-align: center;
+    }
+    #home p{
+        width: 100%;
+        padding: 0%;
+        margin-left: 1rem;
+        flex-wrap: wrap;
+    }
+    #home img{
+        width: 40vh;
+    }
+    
+}
